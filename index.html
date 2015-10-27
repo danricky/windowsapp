@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+	<!--Let browser know website is optimized for mobile-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+
+
+</head>
+
+<body >
+ <div class="navbar-fixed">
+	<nav>
+	<div class="nav-wrapper">
+		<ul id="slide-out" class="side-nav fixed">
+			<li><a href="#!">Logo Here</a></li>
+			<li><a href="#!">Second Sidebar Link</a></li>
+			<li class="no-padding">
+				<ul class="collapsible collapsible-accordion">
+					<li>
+						<a class="collapsible-header">Categories<i class="mdi-navigation-arrow-drop-down"></i></a>
+						<div class="collapsible-body">
+							<ul>
+								<li><a href="#!">Entertainment</a></li>
+								<li><a href="#!">Politics</a></li>
+								<li><a href="#!">Sports</a></li>
+								<li><a href="#!">Economics</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="right hide-on-med-and-down fixed" style="text-align:center" >
+			<li>News</li>
+		</ul>
+		<a href="#" data-activates="slide-out" class="button-collapse "><i class="mdi-navigation-menu"></i></a>
+</div>
+	</nav>
+	</div>
+	<main>
+		<div class="row">
+			<div class="col s12 m4">
+			<div class="card small">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/jobs.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						<p><a href="#">This is a link</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m4">
+				<div class="card small">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/jobs.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						<p><a href="#">This is a link</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col s12 m4">
+				<div class="card small">
+					<div class="card-image waves-effect waves-block waves-light">
+						<img class="activator" src="images/jobs.jpg">
+					</div>
+					<div class="card-content">
+						<span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+						<p><a href="#">This is a link</a></p>
+					</div>
+					<div class="card-reveal">
+						<span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+						<p>Here is some more information about this product that is only revealed once clicked on.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!--Import jQuery before materialize.js-->
+	<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript">
+// $( document ).ready(function(){
+	$('.button-collapse').sideNav({
+      menuWidth: 240, // Default is 240
+      edge: 'left', // Choose the horizontal origin
+      closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
+  }
+  );
+
+// Show sideNav
+// $('.button-collapse').sideNav('show');
+// // Hide sideNav
+// $('.button-collapse').sideNav('hide');
+      // };
+
+  </script>
+
+</body>
+
+</html>
